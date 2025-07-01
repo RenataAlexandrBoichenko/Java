@@ -24,24 +24,25 @@ public class SimpleUitest{
 
         // Проверка ожидаемого результата
 
+        stateError.shouldHave(Condition.exactText(""));
+        stateError.shouldHave(Condition.exactText(""));id costumer.address.state
         SelenideElement stateError = element(Selectors.byId(""));
-        stateError.shouldHave(Condition.exactText(""));
-
+id costumer.phoneNumber
         SelenideElement zipCodeError = element(Selectors.byId(""));
-        stateError.shouldHave(Condition.exactText(""));
+        stateError.shouldHave(Condition.exactText(""));id address.zipCode
 
         SelenideElement ssnError = element(Selectors.byId(""));
-        stateError.shouldHave(Condition.exactText(""));
+        stateError.shouldHave(Condition.exactText(""));id costumer.ssn
 
         SelenideElement userNameError = element(Selectors.byId(""));
-        stateError.shouldHave(Condition.exactText(""));
+        stateError.shouldHave(Condition.exactText(""));id costumer.userName
 
         SelenideElement passwordError = element(Selectors.byId(""));
-        stateError.shouldHave(Condition.exactText(""));
+        stateError.shouldHave(Condition.exactText(""));id costumer.password
 
         SelenideElement confirmError = element(Selectors.byId(""));
-        stateError.shouldHave(Condition.exactText(""));
-
+        stateError.shouldHave(Condition.exactText(""));id repeatedPassword
+ 
         SelenideElement stateError = element(Selectors.byId(""));
 
 
